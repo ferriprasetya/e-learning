@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="/css/home.css" />
+
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Elearning | Ferri Adi Prasetya</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar-light px-md-4">
+      <a class="navbar-brand fw-bold font-primary" href="#">Elearning</a>
+      <div class="navbar-nav">
+        <a class="nav-link mt-4" href="index.html"
+          ><i class="bi bi-house-fill mx-3"></i>Beranda</a
+        >
+        <a class="nav-link mt-4" href="kelas.html"
+          ><i class="bi bi-people-fill mx-3"></i>Kelas</a
+        >
+        <a class="nav-link mt-4 active" href="pengumuman.html"
+          ><i class="bi bi-megaphone-fill mx-3"></i>Pengumuman</a
+        >
+        <a class="nav-link mt-4" href="materi.html"
+          ><i class="bi bi-file-earmark-text-fill mx-3"></i>Materi</a
+        >
+        <a class="nav-link mt-4" href="tugas.html"
+          ><i class="bi bi-calendar2-check-fill mx-3"></i>Tugas</a
+        >
+        <a class="nav-link logout" href="#"
+          ><i class="bi bi-box-arrow-in-right mx-3"></i>Logout</a
+        >
+      </div>
+    </nav>
+
+    <!-- Top-section -->
+    <section class="main">
+      <div class="top-section container">
+        <h3 class="font-primary">Pengumuman</h3>
+        <form class="d-flex">
+          <div class="search input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Cari"
+              aria-label="Example text with button addon"
+              aria-describedby="button-addon1"
+            /><button class="btn" type="submit" id="button-addon1">
+              <i class="bi bi-search text-light"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Pengumuman -->
+    <section class="pengumuman">
+      <div class="container">
+        <div class="tambah d-flex justify-content-center m-3">
+          <a class="btn btn-outline-primary" href="/kelas/create" role="button"
+            >Tambahkan Pengumuman (+)</a
+          >
+        </div>
+        <div class="main d-flex flex-column align-items-center mt-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                aut. Dicta blanditiis temporibus repudiandae totam eaque quam
+                laboriosam placeat corporis?
+              </p>
+              <a href="" class="nav-link p-0">Selengkapnya ></a>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor sit</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                sit vel. Fugit tempore eaque quasi dolorem sequi sed commodi
+                neque!
+              </p>
+              <a href="" class="nav-link p-0">Selengkapnya ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
