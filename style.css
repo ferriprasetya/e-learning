@@ -1,0 +1,91 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --main: #367ffe;
+  --sec: #2697ff;
+  --primary-font: #00162a;
+  --sec-font: #667685;
+}
+
+body {
+  background-color: #fafafb;
+  overflow-x: hidden;
+}
+section {
+  margin-left: 220px;
+}
+.font-primary {
+  color: var(--primary-font) !important;
+}
+/* navbar */
+nav {
+  background-color: white;
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  line-height: 5rem;
+  text-align: center;
+  display: block;
+}
+.active {
+  background-color: var(--sec);
+  color: white !important;
+  border-radius: 10px;
+}
+.navbar-nav .nav-link:hover {
+  background-color: #66768569;
+  color: white !important;
+  border-radius: 10px;
+}
+
+.logout {
+  position: absolute;
+  bottom: 0;
+}
+.footer {
+  position: absolute;
+  bottom: -10px;
+  font-size: 0.8rem;
+}
+
+/* top-section */
+.top-section {
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-section form {
+  width: 20rem;
+}
+input {
+  border: none !important;
+}
+.search button {
+  background-color: var(--sec);
+  border: none;
+  border-radius: 10px;
+}
+
+/* Kelas */
+.siswa .container table {
+  width: 80vw;
+}
+
+.create form {
+  width: 60vw;
+}
+
+.card {
+  border: none;
+  width: 70vw;
+}
+.card-home {
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+}
